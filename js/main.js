@@ -15,7 +15,16 @@ const swiper = new Swiper('.swiper3', {
         nextEl: '.sssdd',
         prevEl: '.ssscc',
     },
+    breakpoints: {
 
+        320: {
+            slidesPerView: 1,
+        },
+
+        640: {
+            slidesPerView: 5,
+        }
+    }
 });
 
 const swiper2 = new Swiper('.swiper2', {
@@ -25,5 +34,14 @@ const swiper2 = new Swiper('.swiper2', {
         nextEl: '.sssd',
         prevEl: '.sssc',
     },
+    breakpoints: {
 
+        320: {
+            slidesPerView: 1,
+        },
+
+        640: {
+            slidesPerView: 5,
+        }
+    }
 });
